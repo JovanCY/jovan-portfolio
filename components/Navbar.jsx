@@ -55,7 +55,7 @@ const Navbar = () => {
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Link href='/'>
+        {/* <Link href='/'>
           <a>
             <Image
               src={NavLogo}
@@ -65,7 +65,8 @@ const Navbar = () => {
               className='cursor-pointer'
             />
           </a>
-        </Link>
+          
+        </Link> */}
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
@@ -80,9 +81,9 @@ const Navbar = () => {
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#projects'>Projects</Link>
             </li>
-            <li className='ml-10 text-sm uppercase hover:border-b'>
+            {/* <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/resume'>Resume</Link>
-            </li>
+            </li> */}
             <li className='ml-10 text-sm uppercase hover:border-b'>
               <Link href='/#contact'>Contact</Link>
             </li>
